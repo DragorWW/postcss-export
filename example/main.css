@@ -1,0 +1,7 @@
+@import {.color} from "function.css";
+@import {sum} from "function.js";
+
+.title:after {
+    content: sum(1,2);
+    .color(red);
+}
